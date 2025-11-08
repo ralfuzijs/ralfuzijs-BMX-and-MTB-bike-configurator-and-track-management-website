@@ -1,0 +1,46 @@
+# Core Software Requirements
+Node.js >= 16.0.0
+npm >= 8.0.0
+MongoDB >= 5.0.0
+
+# Backend API Dependencies
+express@5.1.0
+cors@2.8.5
+mongoose@8.13.2
+dotenv@16.4.7
+bcryptjs@3.0.2
+jsonwebtoken@9.0.0
+
+# Backend Development Dependencies
+nodemon@3.1.9
+
+# Frontend Dependencies
+vue@3.5.13
+vue-router@4.5.0
+leaflet@1.9.4
+
+# Frontend Development Dependencies
+vite@6.2.4
+@vitejs/plugin-vue@5.2.3
+vite-plugin-vue-devtools@7.7.2
+vitest@3.1.1
+@vue/test-utils@2.4.6
+jsdom@26.0.0
+
+# Installation Instructions
+# 1. Install Node.js and npm from https://nodejs.org/
+# 2. Install MongoDB from https://www.mongodb.com/try/download/community
+# 3. Clone the repository
+# 4. Backend setup:
+#    cd map-tracks-api
+#    npm install
+# 5. Frontend setup:
+#    cd vue-project
+#    npm install
+# 6. Start MongoDB service
+# 7. Start backend server:
+#    cd map-tracks-api
+#    npm run dev
+# 8. Start frontend development server:
+#    cd vue-project
+#    npm run dev

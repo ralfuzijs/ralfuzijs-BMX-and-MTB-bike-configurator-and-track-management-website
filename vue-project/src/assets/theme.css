@@ -1,0 +1,45 @@
+/* Apply the color variables to the document */
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a {
+  color: var(--link-color);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+button {
+  background: var(--button-color);
+  color: var(--button-text-color);
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background: var(--header-color);
+  color: var(--button-text-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: var(--footer-color);
+  color: var(--footer-text-color);
+}
+
+.dropdown-content {
+  background-color: var(--dropdown-background);
+}

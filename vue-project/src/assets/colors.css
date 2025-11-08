@@ -1,0 +1,45 @@
+/* Color scheme for BMX/MTB website */
+
+:root {
+  /* Light mode colors */
+  --text-color: #1a1309; /* rgb(26, 19, 9) - hsl(35, 49%, 7%) */
+  --background-color: #f8f2ec; /* rgb(248, 242, 236) - hsl(30, 46%, 95%) */
+  --primary-color: #6b4423; /* rgb(107, 68, 35) - Rich leather brown with orange undertones */
+  --primary-color-gradient-start: #7a4e2a; /* Lighter warm brown for gradients */
+  --primary-color-gradient-end: #5c3a1e; /* Deeper brown with slight red undertone */
+  --secondary-color: #add68a; /* rgb(173, 214, 138) - hsl(92, 48%, 69%) */
+  --accent-color: #57b540; /* rgb(87, 181, 64) - hsl(108, 48%, 48%) */
+    /* Additional derived colors for light mode */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--accent-color);
+  --button-color: linear-gradient(135deg, var(--primary-color-gradient-start), var(--primary-color-gradient-end));
+  --button-text-color: white;
+  --header-color: linear-gradient(180deg, #7a4e2a 0%, #6b4423 50%, #5c3a1e 100%);
+  --footer-color: #3d2816; /* Darker than the primary color for contrast */
+  --footer-text-color: #f8f2ec;
+  --border-color: var(--primary-color);
+  --card-background: white;
+  --dropdown-background: white;
+}
+
+/* Dark mode colors */
+.dark-mode {
+  --text-color: #f6efe4; /* rgb(246, 239, 228) - hsl(37, 50%, 93%) */
+  --background-color: #130d07; /* rgb(19, 13, 7) - hsl(30, 46%, 5%) */
+  --primary-color: #dbb999; /* rgb(219, 185, 153) - hsl(29, 48%, 73%) */
+  --primary-color-gradient-start: #e5c5a8; /* Lighter warm tan for gradients */
+  --primary-color-gradient-end: #c9a684; /* Deeper tan with golden undertone */
+  --secondary-color: #4d7529; /* rgb(77, 117, 41) - hsl(92, 48%, 31%) */
+  --accent-color: #61bf4a; /* rgb(97, 191, 74) - hsl(108, 48%, 52%) */
+    /* Additional derived colors for dark mode */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--accent-color);
+  --button-color: linear-gradient(135deg, var(--primary-color-gradient-start), var(--primary-color-gradient-end));
+  --button-text-color: var(--background-color);
+  --header-color: linear-gradient(180deg, #e5c5a8 0%, #dbb999 50%, #c9a684 100%);
+  --footer-color: #251a0f; /* Darker than the background for contrast */
+  --footer-text-color: #f6efe4;
+  --border-color: var(--primary-color);
+  --card-background: #1f150d; /* Slightly darker than background */
+  --dropdown-background: #1f150d; /* Slightly darker than background */
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/admin/*": ["./src/admin/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/views/*": ["./src/views/*"],
+      "@/services/*": ["./src/services/*"],
+      "@/composables/*": ["./src/composables/*"],
+      "@/assets/*": ["./src/assets/*"]
+    },
+    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "src/**/*.vue", "*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
