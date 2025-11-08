@@ -1,0 +1,9 @@
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v6.2.4  ready in 460 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: http://10.0.11.227:5175/
+  ➜  Vue DevTools: Open http://localhost:5175/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools

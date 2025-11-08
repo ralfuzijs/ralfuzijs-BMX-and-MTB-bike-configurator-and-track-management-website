@@ -40,7 +40,7 @@ The project's development focuses on user convenience, intuitive design, and tec
 - **Node.js** - JavaScript runtime environment
 - **Express.js** - Web application framework for creating the API
 - **SQLite** - Lightweight, file-based relational database for storing track and user information
-- **Sequelize** - ORM (Object-Relational Mapping) for database management
+- **sqlite3** - Native Node.js SQLite driver for database operations
 
 #### Authentication & Security
 - **JWT (JSON Web Tokens)** - For user authentication

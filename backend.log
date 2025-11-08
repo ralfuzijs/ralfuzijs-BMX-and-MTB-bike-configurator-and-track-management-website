@@ -1,0 +1,21 @@
+[33m[nodemon] 3.1.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+SQLite Connected
+Using existing database - checking for required tables
+Existing tables: [
+  'sqlite_sequence',
+  'Tracks',
+  'Users',
+  'TrackFavorites',
+  'bike_size_calculations',
+  'Reviews'
+]
+TrackFavorites table already exists
+bike_size_calculations table already exists
+Reviews table already exists
+Database schema check completed successfully
+Server running on port 5000
+[32m[nodemon] clean exit - waiting for changes before restart[39m

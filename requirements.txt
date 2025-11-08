@@ -1,15 +1,16 @@
 # Core Software Requirements
 Node.js >= 16.0.0
 npm >= 8.0.0
-MongoDB >= 5.0.0
+SQLite (included with Node.js sqlite3 package)
 
 # Backend API Dependencies
 express@5.1.0
 cors@2.8.5
-mongoose@8.13.2
+sqlite3@5.1.7
 dotenv@16.4.7
 bcryptjs@3.0.2
-jsonwebtoken@9.0.0
+jsonwebtoken@9.0.2
+nodemailer@7.0.7
 
 # Backend Development Dependencies
 nodemon@3.1.9
@@ -29,18 +30,19 @@ jsdom@26.0.0
 
 # Installation Instructions
 # 1. Install Node.js and npm from https://nodejs.org/
-# 2. Install MongoDB from https://www.mongodb.com/try/download/community
-# 3. Clone the repository
-# 4. Backend setup:
+# 2. Clone the repository
+# 3. Backend setup:
 #    cd map-tracks-api
 #    npm install
-# 5. Frontend setup:
+# 4. Frontend setup:
 #    cd vue-project
 #    npm install
-# 6. Start MongoDB service
-# 7. Start backend server:
+# 5. Start backend server:
 #    cd map-tracks-api
 #    npm run dev
-# 8. Start frontend development server:
+# 6. Start frontend development server:
 #    cd vue-project
 #    npm run dev
+# 
+# Note: SQLite database file will be created automatically on first run.
+# No separate database service installation or configuration required.

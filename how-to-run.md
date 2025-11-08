@@ -8,7 +8,8 @@ Before you begin, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v16 or newer recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- [MongoDB](https://www.mongodb.com/try/download/community) (local installation or access to MongoDB Atlas)
+
+**Note:** The project uses SQLite, a lightweight file-based database that requires no separate installation or configuration. The database file will be created automatically when you first run the backend server.
 
 ## Running the Backend API Server
 
@@ -24,16 +25,10 @@ The backend API server handles track data storage and retrieval.
    npm install
    ```
 
-3. Configure the database:
-   - Make sure MongoDB is running on your system
-   - On Windows, you may need to start the MongoDB server with administrator permissions:
-     1. Open Command Prompt as Administrator
-     2. Run the following command:
-        ```bash
-        net start MongoDB
-        ```
-   - The default connection string in `.env` is set to `mongodb://localhost:27017/bike_tracks_db`
-   - If needed, modify the `.env` file with your MongoDB connection details
+3. Configure environment variables (optional):
+   - If a `.env.example` file exists, copy it to `.env` and update any necessary settings
+   - The SQLite database file will be created automatically in the project directory on first run
+   - No additional database configuration is required
 
 4. Start the development server:
    ```bash
@@ -114,9 +109,10 @@ To build the Vue.js frontend for production:
 
 ## Troubleshooting
 
-- If you encounter connection issues with the API, make sure MongoDB is running and accessible
+- If you encounter database issues, check that the SQLite database file has proper read/write permissions
 - Check that the ports (5000 for API, 5173 for Vue dev server) are not being used by other applications
 - If changes to the frontend aren't reflecting, try clearing your browser cache
+- The SQLite database file is typically located in the `map-tracks-api` directory
 
 ## Accessing the Website from Other Computers
 ```
